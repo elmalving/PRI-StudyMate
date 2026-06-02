@@ -1,0 +1,75 @@
+.register-page {
+    display: flex;
+    flex: 1;
+}
+
+.studymate-container {
+    display: flex;
+    width: 100%;
+}
+
+.align-right {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin-left: auto;
+}
+
+.align-middle {
+    display: inline-block;
+    margin: auto 0;
+}
+
+.column-gap {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    gap: 4%;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.column-label {
+    color: #9b9c9e;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    padding-bottom: 8px;
+}
+
+.select {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.select,
+.select option {
+    color: #d9d9d9;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.15px;
+}
+.select option {
+    background: #1a1d21;
+}
+
+.illustration {
+    width: 40%;
+    background:
+        url('../../illustration.png') no-repeat center/cover,
+        lightgray;
+}

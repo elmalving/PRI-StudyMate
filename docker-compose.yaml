@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  frontend:
+    build: ./front-end
+    container_name: front-end
+    ports:
+      - '4173:4173'
+    stdin_open: true
+    tty: true
+  backend:
+    build: ./server
+    container_name: back-end
+    ports:
+      - '5000:5000'
+    stdin_open: true
+    tty: true
+    environment:
+      - MONGODB_HOST=mongodb
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
