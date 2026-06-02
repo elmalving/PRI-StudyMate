@@ -20,7 +20,7 @@ docker compose up --build
 ```
 
 This will start:
-- **Frontend** — React app at `http://localhost:3000`
+- **Frontend** — React app at `http://localhost:4173`
 - **Backend** — PHP API at `http://localhost:5000`
 - **MongoDB** — Database at `localhost:27017`
 
