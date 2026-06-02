@@ -62,29 +62,3 @@ docker compose down
   "password": "password123"
 }
 ```
-
----
-
-## Running Locally (without Docker)
-
-### Backend
-Requires PHP 8.1+ with the MongoDB extension and Composer.
-
-```bash
-cd server
-composer install
-php -S localhost:5000 app.php
-```
-
-Make sure MongoDB is running on `localhost:27017`.
-
-### Frontend
-Requires Node.js.
-
-```bash
-cd front-end
-npm install
-npm run dev
-```
-
-The frontend will be available at `http://localhost:5173`.
