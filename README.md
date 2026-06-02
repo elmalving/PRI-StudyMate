@@ -1,6 +1,6 @@
 # StudyMate
 
-### Chat-bot for 2023 Hackathon
+### Chat-bot for KI/PRI course
 
 * Fullstack (Front-End & Back-End): Mykyta Hromov
 
